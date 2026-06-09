@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InAmigos Foundation | Empowering Communities</title>
+  <!-- Poppins only — all weights needed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="nav-container">
+
+      <!-- Logo image — replace src with your actual path -->
+      <a href="#home" class="logo-link">
+        <img class="logo-img" src="images/logo.jpg" alt="InAmigos Foundation" />
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#join" class="nav-cta">Join Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ===== HERO — image-led, text bottom-left ===== -->
+  <section class="hero" id="home">
+
+    <!-- Replace src with your hero image. Suggested: a candid field-work photo -->
+    <img class="hero-img" src="images/hero.jpg" alt="InAmigos Foundation volunteers in the field" />
+
+    <!-- Gradient scrim so text stays readable over any image -->
+    <div class="hero-scrim"></div>
+
+    <!-- Text block, anchored to bottom-left -->
+    <div class="hero-content">
+      <p class="hero-eyebrow">Section 8 Non-Profit · Bilaspur, Chhattisgarh</p>
+      <h1 class="hero-heading">
+        Empowering Communities,<br />Creating Change
+      </h1>
+      <p class="hero-sub">
+        InAmigos Foundation works towards building an inclusive,
+        compassionate, and empowered society through collective action.
+      </p>
+      <div class="hero-buttons">
+        <a href="#join" class="btn btn-primary">Become a Volunteer</a>
+        <a href="#join" class="btn btn-ghost">Support the Cause</a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+
+      <!--
+        3-column about grid:
+        Col 1 (about-left)   = big editorial heading
+        Col 2 (about-middle) = body text + key facts
+        Col 3 (about-tiles)  = staggered cause tiles
+      -->
+      <div class="about-grid">
+
+        <!-- Column 1: editorial heading -->
+        <div class="about-left">
+          <h2 class="about-heading">About<br />InAmigos<br />Foundation</h2>
+          <div class="about-rule"></div>
+        </div>
+
+        <!-- Column 2: body text + key facts -->
+        <div class="about-middle">
+          <p class="about-body">
+            InAmigos Foundation was founded on <strong>September 23, 2020</strong>
+            by <strong>Mr. Govind Shukla</strong>. It is a
+            <strong>Section 8 registered non-profit organisation</strong> based in
+            Chhattisgarh, dedicated to creating lasting social impact across India.
+          </p>
+          <p class="about-body">
+            The foundation runs purpose-driven projects focused on education, food
+            distribution, women empowerment, animal welfare, environmental
+            sustainability, social inclusion, and skill development — touching lives
+            across 28 states with the support of a growing volunteer network.
+          </p>
+
+          <!-- Key facts — stacked vertically in this column -->
+          <ul class="about-facts">
+            <li>
+              <span class="fact-label">Founded</span>
+              <span class="fact-value">23 Sept 2020</span>
+            </li>
+            <li>
+              <span class="fact-label">Headquarters</span>
+              <span class="fact-value">Bilaspur, CG</span>
+            </li>
+            <li>
+              <span class="fact-label">Registration</span>
+              <span class="fact-value">Section 8 Non-Profit</span>
+            </li>
+            <li>
+              <span class="fact-label">Presence</span>
+              <span class="fact-value">Pan-India</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 3: staggered cause tiles -->
+        <div class="about-tiles">
+          <h3 class="cause-block-heading">What We Work On</h3>
+
+          <div class="cause-columns">
+
+            <!-- Tile column 1 -->
+            <div class="cause-col cause-col-1">
+              <div class="cause-tile">
+                <span class="tile-number">01</span>
+                <span class="tile-name">Education</span>
+              </div>
+              <div class="cause-tile">
+                <span class="tile-number">02</span>
+                <span class="tile-name">Food Support</span>
+              </div>
+              <div class="cause-tile">
+                <span class="tile-number">03</span>
+                <span class="tile-name">Women Empowerment</span>
+              </div>
+            </div>
+
+            <!-- Tile column 2 — offset downward via padding-top in CSS -->
+            <div class="cause-col cause-col-2">
+              <div class="cause-tile tile-alt">
+                <span class="tile-number">04</span>
+                <span class="tile-name">Animal Welfare</span>
+              </div>
+              <div class="cause-tile tile-alt">
+                <span class="tile-number">05</span>
+                <span class="tile-name">Environment</span>
+              </div>
+              <div class="cause-tile tile-alt">
+                <span class="tile-number">06</span>
+                <span class="tile-name">Skill Development</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- end about-tiles -->
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+
+      <div class="projects-header">
+        <h2 class="section-heading">Key Projects</h2>
+        <p class="projects-intro">
+          Each project addresses a specific social need and creates measurable,
+          lasting impact in communities across India.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-index">01</span>
+            <span class="project-category">Food &amp; Clothing</span>
+          </div>
+          <h3 class="project-name">Project Sewa</h3>
+          <p class="project-desc">
+            Providing food and clothing support to underprivileged communities,
+            ensuring no one goes without basic necessities.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-index">02</span>
+            <span class="project-category">Education</span>
+          </div>
+          <h3 class="project-name">Project Bachpanshala</h3>
+          <p class="project-desc">
+            Supporting quality education for underprivileged children, giving
+            every child a chance to learn and grow.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-index">03</span>
+            <span class="project-category">Animal Welfare</span>
+          </div>
+          <h3 class="project-name">Project Jeev</h3>
+          <p class="project-desc">
+            Animal welfare through rescue, protection, and feeding — because
+            compassion extends to all living beings.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-index">04</span>
+            <span class="project-category">Women Empowerment</span>
+          </div>
+          <h3 class="project-name">Project Udaan</h3>
+          <p class="project-desc">
+            Women empowerment through skill development and financial
+            independence, helping women build self-reliant futures.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-index">05</span>
+            <span class="project-category">Environment</span>
+          </div>
+          <h3 class="project-name">Project Prakriti</h3>
+          <p class="project-desc">
+            Environmental conservation and sustainability efforts to protect
+            our planet for future generations.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-index">06</span>
+            <span class="project-category">Skill Development</span>
+          </div>
+          <h3 class="project-name">Project Vikas</h3>
+          <p class="project-desc">
+            Employability and skill development programs bridging the gap
+            between youth potential and economic opportunity.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== SOCIAL IMPACT ===== -->
+  <section class="impact section" id="impact">
+    <div class="container">
+
+      <h2 class="impact-heading">Social Impact at a Glance</h2>
+
+      <div class="impact-grid">
+
+        <div class="impact-stat">
+          <div class="stat-number">200+</div>
+          <div class="stat-label">Volunteers</div>
+        </div>
+
+        <div class="impact-stat">
+          <div class="stat-number">28</div>
+          <div class="stat-label">States Reached</div>
+        </div>
+
+        <div class="impact-stat">
+          <div class="stat-number">6</div>
+          <div class="stat-label">Core Causes</div>
+        </div>
+
+        <div class="impact-stat">
+          <div class="stat-number">50,000+</div>
+          <div class="stat-label">Beneficiaries</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+
+      <h2 class="section-heading">Gallery</h2>
+      <p class="gallery-intro">
+        Glimpses of the work being done on the ground — for the community,
+        by the community.
+      </p>
+
+      <div class="gallery-grid">
+
+        <!-- Replace src paths with your actual images -->
+        <div class="gallery-item">
+          <img src="images/study.jpg" alt="Education Support" />
+          <div class="gallery-caption">Education Support</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/food.jpg" alt="Community Service" />
+          <div class="gallery-caption">Community Service</div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="images/plant.jpg" alt="Environmental Awareness" />
+          <div class="gallery-caption">Environmental Awareness</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===== CALL TO ACTION ===== -->
+  <section class="cta" id="join">
+    <div class="cta-inner">
+
+      <div class="cta-text-block">
+        <h2 class="cta-heading">Be the Change<br />You Wish to See</h2>
+        <p class="cta-body">
+          Join hands with InAmigos Foundation to support communities, protect
+          the environment, empower women, and create meaningful social impact.
+        </p>
+        <div class="cta-buttons">
+          <a href="https://inamigosfoundation.org.in/" target="_blank" class="btn btn-primary-dark">
+            Join as Volunteer
+          </a>
+          <a href="https://inamigosfoundation.org.in/" target="_blank" class="btn btn-outline-dark">
+            Donate Now
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">InAmigos Foundation</div>
+          <p class="footer-tagline">
+            Empowering communities, creating change — one act of service at a time.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#join">Join Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="mailto:inamigosfoundation@gmail.com">
+                inamigosfoundation@gmail.com
+              </a>
+            </li>
+            <li>Bilaspur, Chhattisgarh, India</li>
+            <li>
+              <a href="https://inamigosfoundation.org.in/" target="_blank">
+                inamigosfoundation.org.in
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>Content based on official information from InAmigos Foundation.</p>
+        <p>&copy; 2024 InAmigos Foundation. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
